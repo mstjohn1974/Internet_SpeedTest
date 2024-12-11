@@ -5,9 +5,9 @@ def perform_speed_test():
    servers = st.get_best_server()
 
    print("Testing download speed...")
-   download_speed = st.download() / 1000000  # Convert to Mbps
+   download_speed = st.download() / 1000000  # Convert 2 Mbps
    print("Testing upload speed...")
-   upload_speed = st.upload() / 1000000  # Convert to Mbps
+   upload_speed = st.upload() / 1000000  # Convert 2 Mbps
 
    return download_speed, upload_speed
 
